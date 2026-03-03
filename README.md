@@ -92,8 +92,8 @@ pnpm start
 | `!debug` | Show debug information |
 
 ### Compilation Commands
-Please note `codeblock` refers to the method applications like Stoat, Github & Discord use to create syntax highlighting for code blocks. (/```/)
-- If snippet posted is not wrapped in the required codeblock will not be processed. 
+Please note `codeblock` refers to the method applications like Stoat, Github & Discord use to create syntax highlighting for code blocks. (```)
+- If snippet posted is not wrapped in the required method, the codeblock will not be processed. 
 
 #### Build Binary
 
