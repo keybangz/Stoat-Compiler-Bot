@@ -1,6 +1,6 @@
 # Stoat Compiler Bot
 
-A multi-language compiler and code execution bot for [Stoat](https://github.com/stoatChat/stoat) (a Revolt fork). Compile C++ and Rust applications with cross-compilation support, or execute interpreted languages like Python, JavaScript, Ruby, Perl, and Bash in a secure containerized environment.
+A multi-language compiler and code execution bot for [Stoat](https://github.com/stoatchat/for-web). Compile C++ and Rust applications with cross-compilation support, or execute interpreted languages like Python, JavaScript, Ruby, Perl, and Bash in a secure containerized environment.
 
 ## Features
 
@@ -97,58 +97,60 @@ pnpm start
 
 ```
 !build <target>
-```language
+
+`codeblock`
 code here
-```
+`codeblock`
 ```
 
 **Example:**
 ```
 !build cpp-linux-x64
-```cpp
+
+`codeblock`cpp
 #include <iostream>
 int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
-```
+`codeblock`
 ```
 
 #### Run Code
 
 ```
 !run <language>
-```language
+`codeblock`language
 code here
-```
+`codeblock`
 ```
 
 **Example:**
 ```
 !run python
-```py
+`codeblock`py
 for i in range(10):
     print(f"Count: {i}")
-```
+`codeblock`
 ```
 
 #### Syntax Check
 
 ```
 !syntax [language]
-```language
+`codeblock`language
 code here
-```
+`codeblock`
 ```
 
 **Example:**
 ```
 !syntax rust
-```rust
+`codeblock`rust
 fn main() {
     println!("Hello");
 }
-```
+`codeblock`
 ```
 
 ### Admin Commands
