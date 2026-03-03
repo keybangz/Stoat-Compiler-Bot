@@ -1,0 +1,24 @@
+{
+  "name": "stoat",
+  "version": "2.0.0",
+  "description": "Multi-Language Compiler Bot for Stoat (C++, Rust, Python, JS, Ruby, Perl, Bash)",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "stoat.js": "^7.3.7",
+    "dotenv": "^16.0.0",
+    "form-data": "^4.0.0",
+    "axios": "^1.6.0",
+    "archiver": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/archiver": "^6.0.0"
+  }
+}
