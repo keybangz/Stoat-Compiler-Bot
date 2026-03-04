@@ -31,7 +31,7 @@ A multi-language compiler and code execution bot for [Stoat](https://github.com/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/stoat-compiler-bot.git
+git clone https://github.com/keybangz/stoat-compiler-bot.git
 cd stoat-compiler-bot
 ```
 
